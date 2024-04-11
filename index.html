@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CIS 223 Chapter 7 Program - Wheel of Fortune</title>
+    <script src="wheeloffortune.js"></script>
+</head>
+<style>
+    #welcome {
+        text-align: center;
+    }
+    h1 {
+        color: ghostwhite;
+        border: 7px solid black;
+        background-color: navy;
+        text-align: center;
+    }
+    #wheel {
+        background-image: url("wheel.png");
+        width: 290px;
+        height: 290px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+<body onload="start();">
+<h1>
+    Wheel of Fortune
+</h1>
+<div id = 'wheel'>
+</div>
+<p id = 'welcome'>
+</p>
+<button style="background-color: gray; padding: 30px; font-weight: bold; font-size: 1.5em; text-align: center;" onclick="beginGame()">
+    Start the game!
+</button>
+<div id = "hint">
+
+</div>
+<div id = "game">
+
+</div>
+<div id = "result">
+
+</div>
+</body>
+</html>
